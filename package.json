@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
     "test:watch": "npm run test -- --watch",
-    "eslint": "./node_modules/.bin/eslint ./src/index.js --fix"
+    "eslint": "./node_modules/.bin/eslint ./src/index.js --fix",
+    "standard": "./node_modules/.bin/standard ./src/index.js --fix"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.2.0",
     "jsdom": "^11.1.0",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
   }
 }
